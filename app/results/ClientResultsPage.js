@@ -1,6 +1,7 @@
 'use client';
 
 import { useRouter, useSearchParams } from 'next/navigation';
+import { Suspense } from 'react';
 import questions from '../quiz/questions';
 import ResultSummary from '../components/ResultSummary';
 
